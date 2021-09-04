@@ -225,6 +225,9 @@ p {
         width: 60%;
         margin-top: 20px;
     }
+    .hero_section .row {
+        height: 50vh;
+    }
 }
 
 
