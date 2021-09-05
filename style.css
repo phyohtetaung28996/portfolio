@@ -30,6 +30,16 @@ a {
     cursor: pointer;
 }
 
+/* @viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-veiwport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+} */
+
 canvas.particles-js-canvas-el {
     position: absolute;
     height: 100% !important;
@@ -40,6 +50,7 @@ canvas.particles-js-canvas-el {
     z-index: -1000;
     margin: 0px;
 }
+
 
 /* navbar section start */
 
@@ -75,6 +86,8 @@ canvas.particles-js-canvas-el {
 
 }
 
+
+
 /* navbar section end */
 
 /* hero section start */
@@ -82,6 +95,7 @@ canvas.particles-js-canvas-el {
     display: flex;
     align-items: center;
     height: 100vh;
+
 }
 
 .hero_section .row h2,
@@ -179,9 +193,9 @@ p {
     }
 }
 
-@media (max-width: 763px) and (min-width:500px) {
+@media (max-width: 768px) {
     .hero_section {
-        margin: 135px 0px;
+        margin: 10px 0px;
     }
 
     .hero_section .row h1 {
@@ -225,9 +239,8 @@ p {
         width: 60%;
         margin-top: 20px;
     }
-    .hero_section .row {
-        height: 50vh;
-    }
+
+
 }
 
 
@@ -410,7 +423,7 @@ p {
     display: block;
     min-height: 100vh;
     background-color: #141414;
-    padding: 100px 0;
+    /* padding: 100px 0; */
 }
 
 .gallery .gallery-filter {
@@ -536,6 +549,11 @@ p {
     }
 }
 
+@media (max-width: 768px) {
+    .contact-in {
+        margin-left: 34px !important;
+    }
+}
 
 
 /* contact section end */
